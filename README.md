@@ -34,20 +34,5 @@ sh scripts/train.sh pascal 0 [0] 50 1
 sh scripts/test.sh {data} {shot} {[gpu_ids]} {layers} {split}
 ```
 
-## Contact
-Please write down issues or contact me via zhihe.lu [at] surrey.ac.uk if you have any questions.
-
-## Citation
-If you feel helpful of this work, please cite it.
-
-```
-@inproceedings{lu2021simpler,
-  title={Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer},
-  author={Lu, Zhihe and He, Sen and Zhu, Xiatian and Zhang, Li and Song, Yi-Zhe and Xiang, Tao},
-  booktitle={ICCV},
-  year={2021}
-}
-```
-
 ## Acknowledgments
 Thanks to the code contributors. Some parts of code are borrowed from https://github.com/Jia-Research-Lab/PFENet and https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation.
